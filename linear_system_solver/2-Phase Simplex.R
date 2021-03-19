@@ -2,7 +2,7 @@
 
 #Code Slacks for test
 library("readxl")
-data <- read_excel("C:/Documents/EFREI/S8/Numerical Optimization Methods/Labs/Project/Project R Code/LP_System.xlsx")
+data <- read_excel("C:/Users/Nicolas/Documents/EFREI/Cours/M1/Cours/Numerical Optimization Methods/Optimisation/linear_system_solver/LP_System.xlsx")
 
 n <- nrow(data)
 m <- ncol(data)
