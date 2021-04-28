@@ -5,7 +5,7 @@ slacks <- function(data){
   
   for (i in 1:n)
   {
-    if (data[i,4] < 0)
+    if (data[i,m] < 0)
     {
       for (j in 1:(m-2))
       {
@@ -28,7 +28,7 @@ slacks <- function(data){
   
   for (i in 1:n)
   {
-    if (data[i,3]=='supeq')
+    if (data[i,(m-1)]=='supeq')
     {
       I[i,] = -I[i,]
     }
